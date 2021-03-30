@@ -13,7 +13,6 @@ class ReviewTabFragment : Fragment() {
         super.onCreate(savedInstanceState)
 
     }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
