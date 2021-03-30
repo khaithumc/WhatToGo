@@ -16,8 +16,7 @@
         android:layout_marginTop="8dp"
         android:background="#2aab1194"
         android:padding="5dp"
-        android:text="Đây là một đoạn văn trong View của layout:
-                      lession2_activiy. Lập trình Android bài 2."
+        android:text="Hello hello hello"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
