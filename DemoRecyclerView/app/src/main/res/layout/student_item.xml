@@ -1,50 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="10dp"
-    android:paddingBottom="10dp">
-
-    <ImageView
-        android:layout_width="60dp"
-        android:layout_height="match_parent"/>
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardElevation="5dp">
 
     <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_width="0dp"
-        android:paddingLeft="5dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent">
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher" />
+
+
         <TextView
             android:id="@+id/studentName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textSize="16sp"
             android:text="dsafdsfdsfasf"
+            android:textSize="16sp"
+            android:textStyle="bold"
 
 
             />
+
         <TextView
             android:id="@+id/studentBirthDay"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="italic"
-            android:textSize="14sp"
+            android:layout_height="match_parent"
             android:text="dsfadsfdsf"
+            android:textSize="14sp"
+            android:textStyle="italic" />
 
-            />
+        <Button
+            android:id="@+id/detailButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Detail"
+            android:textSize="10sp" />
+
     </LinearLayout>
 
-    <Button
-        android:id="@+id/detailButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:textSize="10sp"
-        android:text="Detail"
-        />
-</LinearLayout>
+</androidx.cardview.widget.CardView>
+

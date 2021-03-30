@@ -20,6 +20,13 @@
        android:layout_height="wrap_content"
        android:text="Day la title"/>
 
+    <Button
+        android:id="@+id/readMoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="read more"/>
+
 
 
 
